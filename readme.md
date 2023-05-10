@@ -11,11 +11,20 @@ Aplikasi ini merupakan task berdasarkan soal studi kasus dalam rangka rekrutmen 
 
 Berikut cara instalasi atau deploy pada localhost di directory htdocs jika menggunakan xampp, karena sudah saya sertakan juga file .htaccess dan file server.php agar tidak perlu akses ke folder public
 
--   git clone https://github.com/hasan000amin/arkamaya_hasan.git ke directory C:\xampp\htdocs
--   cd arkamaya_hasan
--   composer install
--   cp .env.example .env
--   php artisan key:generate
--   Sesuaikan nama database dengan db_project_hasan
--   php artisan migrate:fresh --seed
--   Akses melalui http://localhost/arkamaya_hasan
+1. **Clone Repository ke directory C:\xampp\htdocs**
+
+```bash
+git clone https://github.com/hasan000amin/arkamaya_hasan.git
+cd arkamaya_hasan
+composer install
+cp .env.example .env
+```
+
+2. **Buka `.env` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai, secara default settingan nama database adalah seperti dibawah seuai dengan ketentuan task**
+
+```bash
+DB_PORT=3306
+DB_DATABASE=db_project_hasan
+DB_USERNAME=root
+DB_PASSWORD=
+```
