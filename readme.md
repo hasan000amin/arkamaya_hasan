@@ -1,8 +1,8 @@
 ## Tentang aplikasi ini
 
-aplikasi ini merupakan task berdasarkan soal studi kasus dalam rangka rekrutmen web developer di PT. Arkamaya:
+Aplikasi ini merupakan task berdasarkan soal studi kasus dalam rangka rekrutmen web developer di PT. Arkamaya. Beberapa package yang digunakan pada aplikasi ini yaitu
 
--   [Simple, fast routing engine](https://laravel.com/docs/routing).
+-   [Laravel 9].
 -   [Powerful dependency injection container](https://laravel.com/docs/container).
 -   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 -   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
