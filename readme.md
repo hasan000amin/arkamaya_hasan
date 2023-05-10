@@ -28,3 +28,16 @@ DB_DATABASE=db_project_hasan
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+3. **Instalasi Aplikasi**
+
+```bash
+php artisan key:generate
+php artisan migrate --seed
+```
+
+4. **Jalankan Aplikasi cukup akses http://localhost/arkamaya_hasan atau bisa dengan local development dengan menjalankan php artisan serve**
+
+```bash
+php artisan serve
+```
